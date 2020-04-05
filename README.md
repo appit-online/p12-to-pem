@@ -30,6 +30,7 @@ import * as p12 from 'p12-pem';
 /**
  * Given a p12 file, convert it to the PEM format.
  * @param {string} pathToCert The relative path to a p12 file.
+ * @param {string} password of p12 / private key.
  */
 const {pemKey, pemCertificate, commonName} = p12.getPemFromP12(certPath, password);
 console.log('The converted private key in PEM:');
