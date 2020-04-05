@@ -1,5 +1,5 @@
 {
-  "name": "p12-to-pem",
+  "name": "p12-pem",
   "version": "1.0.0",
   "description": "Extracts the certificate and the private key from a p12/ pkcs12 file",
   "main": "lib/index.js",
