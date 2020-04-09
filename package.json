@@ -1,6 +1,6 @@
 {
   "name": "p12-pem",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Extracts the certificate and the private key from a p12/ pkcs12 file",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -28,6 +28,10 @@
     "concert p12",
     "extract p12"
   ],
+  "funding": {
+    "url": "https://paypal.me/dave7117",
+    "type": "paypal"
+  },
   "author": "David Koller",
   "license": "ISC",
   "files": [
