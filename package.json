@@ -1,6 +1,6 @@
 {
   "name": "p12-pem",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Extracts the certificate and the private key from a p12/ pkcs12 file",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -42,17 +42,17 @@
   },
   "homepage": "https://github.com/appit-online/p12-to-pem#readme",
   "devDependencies": {
-    "@types/jest": "^25.2.1",
-    "@types/node": "^13.11.0",
-    "@types/node-forge": "^0.9.3",
-    "jest": "^25.2.7",
-    "prettier": "^2.0.2",
-    "ts-jest": "^25.3.1",
-    "tslint": "^6.1.1",
+    "@types/jest": "^27.0.3",
+    "@types/node": "^16.11.12",
+    "@types/node-forge": "^0.10.10",
+    "jest": "^27.4.4",
+    "prettier": "^2.5.1",
+    "ts-jest": "^27.1.1",
+    "tslint": "^6.1.3",
     "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.8.3"
+    "typescript": "^4.5.3"
   },
   "dependencies": {
-    "node-forge": "^0.9.1"
+    "node-forge": "^0.10.0"
   }
 }
